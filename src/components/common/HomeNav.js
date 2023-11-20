@@ -1,5 +1,6 @@
 import React from 'react'
 import "./Navbar.css"
+import logo from './brand-logo.png';
 
 function HomeNav({scrollToSection}) {
   return (
@@ -30,4 +31,4 @@ function HomeNav({scrollToSection}) {
   )
 }
 
-export default HomeNav
+export default HomeNav;
