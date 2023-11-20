@@ -28,7 +28,7 @@ function Displaycourse(props) {
                         <h5 class="card-title">{props.obj.Name}</h5>
                         <hr></hr>
                         {/* <p class="card-text">{props.obj.Description}<br></br> */}
-                        <p>    <b>Author : <span><b>{props.obj.Author}</b></span></b></p>
+                        {/*<p>    <b>Author : <span><b>{props.obj.Author}</b></span></b></p>*/}            
                         <p>    <b>Duration : <span><b>{props.obj.Duration}</b></span>hrs</b></p>
                         <button class="btn btn-success"><Link to={"/course/" + props.obj._id} className="text-light text-decoration-none">
                             View Content
