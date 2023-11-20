@@ -1,5 +1,5 @@
 import React from 'react'
-import "./Navbar.css"
+import "./HomeNav.css"
 import logo from './brand-logo.png';
 
 function HomeNav({scrollToSection}) {
