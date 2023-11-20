@@ -22,7 +22,7 @@ const FAQMenu = () => {
       <div className="accordion-items">
         <FAQItem
           title="How do I create an account on the education platform?"
-          content="To create an account, click on the "Sign Up" button on the homepage. Fill in the required information, and you'll be registered as a student."
+          content="To create an account, click on the Sign Up button on the homepage. Fill in the required information, and you'll be registered as a student."
           isActive={currentlyActive === 1}
           onClick={() => handleAccordionClick(1)}
         />
