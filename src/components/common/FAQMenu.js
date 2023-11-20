@@ -22,19 +22,19 @@ const FAQMenu = () => {
       <div className="accordion-items">
         <FAQItem
           title="How do I create an account on the education platform?"
-          content="To create an account, click on the Sign Up button on the homepage. Fill in the required information, and you'll be registered as a student."
+          content="To create an account, click on the Sign Up button on the homepage. Fill in the required information, and you will be registered as a student."
           isActive={currentlyActive === 1}
           onClick={() => handleAccordionClick(1)}
         />
         <FAQItem
           title="How can I enroll in a course?"
-          content="After logging in, browse through the available courses. Click on the course you're interested in, and there should be an "Enroll" button. Follow the fields to complete the enrollment process."
+          content="After logging in, browse through the available courses. Click on the course you're interested in, and there should be an Enroll button. Follow the fields to complete the enrollment process."
           isActive={currentlyActive === 2}
           onClick={() => handleAccordionClick(2)}
         />
         <FAQItem
           title="What happens after I enroll in a course?"
-          content="Once enrolled, you'll gain access to the course materials. You can start learning at your own pace and engage with the course content."
+          content="Once enrolled, you will gain access to the course materials. You can start learning at your own pace and engage with the course content."
           isActive={currentlyActive === 3}
           onClick={() => handleAccordionClick(3)}
         />
