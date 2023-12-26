@@ -1,5 +1,5 @@
 import React from 'react';
-import "./Features.css";
+import "./Homefooter.css";
 // import { nav } from "react-router-dom";
 
 function Homefooter() {
