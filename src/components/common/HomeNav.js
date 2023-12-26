@@ -6,7 +6,7 @@ function HomeNav({scrollToSection}) {
   return (
     <>
     <nav className="navbar navbar-expand-lg navbar-light bgcol px-5">
-    <img className="navbar-brand"  style = {{height : "70px",width : "auto"}}src = {logo}></img>  
+    <img className="navbar-brand"  style = {{height : "50px",width : "auto"}}src = {logo}></img>  
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCenteredExample" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
     </button>
