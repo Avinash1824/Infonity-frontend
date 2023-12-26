@@ -1,5 +1,6 @@
 import React from 'react';
 // import { nav } from "react-router-dom";
+import "./Homefooter.css";
 import {Link} from 'react-router-dom';
 import footerlogo from './brandname.png';
 
